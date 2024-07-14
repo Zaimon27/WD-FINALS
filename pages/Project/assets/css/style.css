@@ -1,0 +1,92 @@
+74% of storage used … If you run out, you can't create, edit, and upload files. Get 100 GB of storage for ₱89.00 ₱0 for 1 month.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    & nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+        & a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover{
+                color: green;
+            }
+        }
+        & h1{
+            font-size: 1.5rem;
+            transition: 1s;
+            &:hover{
+                color: green;
+                transform: rotateY(360deg);
+            }
+        }
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/The\ Bar.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    & a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        margin: 1rem;
+        &:hover{
+            color: green;
+        }
+    }
+    & h1{
+        font-size: 3rem;
+        color: purple;
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & div.project-item{
+        margin: 10px;
+        padding: 10px;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        border-radius: 10px;
+        transition: 1s;
+        font-weight: 1000;
+        color: white;
+        max-width: 25rem;
+        &:hover{
+            transform: scale(1.1);
+        }
+        & p{
+            font-size: 1.3rem;
+            color: white;
+            padding: 1rem;
+        }
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            margin: 1rem;
+            &:hover{
+                color: green;
+            }
+        }
+    }
+}
