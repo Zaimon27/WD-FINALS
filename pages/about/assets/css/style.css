@@ -1,0 +1,80 @@
+74% of storage used … If you run out, you can't create, edit, and upload files. Get 100 GB of storage for ₱89.00 ₱0 for 1 month.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    & nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+        & a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover{
+                color: green;
+            }
+        }
+        & h1{
+            font-size: 1.5rem;
+            transition: 1s;
+            &:hover{
+                color: green;
+                transform: rotateY(360deg);
+            }
+        }
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url(../img/2caed8ab-0bc0-4bf8-b4f6-f64089f10c77.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    & a{
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        transition: 1s;
+        padding: 1rem;
+        margin-top: 1rem;
+        &:hover{
+            background-color: green;
+        }
+    }
+    & h1{
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+    & div{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+        width: 50rem;
+        transition: 1s;
+        & p{
+            font-size: 1.8rem;
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
