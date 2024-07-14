@@ -42,20 +42,6 @@ section{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    & a{
-        background-color: black;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 1.5rem;
-        transition: 1s;
-        padding: 1rem;
-        margin-top: 1rem;
-        &:hover{
-            background-color: green;
-        }
-    }
     & h1{
         font-size: 3rem;
         margin-bottom: 20px;
